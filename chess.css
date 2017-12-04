@@ -1,0 +1,39 @@
+#settings {
+	width: 20%;
+	float: left;
+}
+
+#board {
+	text-align: center;
+	width: 60%;
+	float: left;
+}
+
+#chessBoard {
+	margin: auto;
+    border: 5px solid black;
+    border-radius: 5px;
+    clear: both;
+}
+
+td {
+	height: 11vh;
+	width: 11vh;
+	border: none;
+	padding: 0;
+}
+
+.a0 {
+	background-color: black;
+	color: white;
+}
+
+.a1 {
+	background-color: white;
+	color: black;
+}
+
+#prompt {
+	width: 20%;
+	float: right;
+}
