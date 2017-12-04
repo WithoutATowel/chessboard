@@ -33,7 +33,7 @@ function showClicked(){
 };
 
 function prompt(){
-    var column = String.fromCharCode(65 + Math.floor(Math.random()*8+1));
+    var column = String.fromCharCode(65 + Math.floor(Math.random()*8));
     var row = Math.floor(Math.random()*8+1);
     $("#promptValue").html(column + row);
 }
